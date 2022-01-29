@@ -1,0 +1,13 @@
+This cell is only for clarification and it is not part of the original code\n",
+     Explaining deep copy
+    from copy import deepcopy
+    
+    x = [1,2,3],
+    y = x,
+    z = deepcopy(x),
+    x[0] = 50,
+    x[2] = 150,
+    x.append(200),
+    print('x:',x),
+    print('y:',y),
+    print('z:',z),
